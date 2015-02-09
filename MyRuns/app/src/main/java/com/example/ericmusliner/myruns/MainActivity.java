@@ -1,9 +1,12 @@
 package com.example.ericmusliner.myruns;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +15,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
 
@@ -35,5 +40,23 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onSaveClicked(View v) {
+        Toast.makeText(getApplicationContext(),
+                    "Saved!", Toast.LENGTH_SHORT).show();
+
+        super.onBackPressed();
+    }
+
+    public void onCancelClicked(View v) {
+        Toast.makeText(getApplicationContext(),
+                "Cancelled!", Toast.LENGTH_SHORT).show();
+
+        super.onBackPressed();
+    }
+
+    public void onChangeClicked(View v) {
+
     }
 }

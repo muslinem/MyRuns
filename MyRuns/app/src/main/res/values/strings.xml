@@ -4,5 +4,22 @@
     <string name="app_name">MyRuns</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="name">Name:</string>
+    <string name="nameHere">Your name here</string>
+    <string name="email">Email:</string>
+    <string name="emailHere">Your email here</string>
+    <string name="phone">Phone:</string>
+    <string name="phoneHere">Your phone number here</string>
+    <string name="gender">Gender:</string>
+    <string name="genderFemale">Female</string>
+    <string name="genderMale">Male</string>
+    <string name="classYear">Class:</string>
+    <string name="classYearHere">e.g. 2012</string>
+    <string name="major">Major:</string>
+    <string name="majorHere">Your major here</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="photo">Profile photo:</string>
+    <string name="change">Change</string>
 
 </resources>
