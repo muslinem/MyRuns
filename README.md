@@ -1,2 +1,2 @@
 # MyRuns
-CS480 Lab Assignments
+CS480 Lab 3
