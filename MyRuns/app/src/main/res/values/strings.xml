@@ -21,5 +21,6 @@
     <string name="cancel">Cancel</string>
     <string name="photo">Profile photo:</string>
     <string name="change">Change</string>
+    <string name="profile_photo_name">ProfilePic</string>
 
 </resources>
